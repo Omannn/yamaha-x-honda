@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+
+  scroll-behavior: smooth;
+  
+}
+
+nav{
+  background-color: rgb(225, 23, 23); 
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem  2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav div img {
+  width: 70px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family:'AMCAP Eternal', sans-serif;
+  color: black;
+  font-weight: 600;
+  padding:  8px 0;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+nav ul li a:hover {
+  border-bottom: 1px solid rgb(241, 241, 247);
+  color: rgb(241, 241, 247);
+}
+
+
+main .card h2 {
+  font-family: 'AMCAP Eternal', sans-serif;
+  font-size: 25px;
+}
+
+
+body {
+  color: rgb(17, 17, 17);
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  min-height: 100vh;
+}
+
+.main-content .card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 90%;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 3px 15px 0 rgb(7, 74, 76);
+  margin-top: 50px;
+}
+
+main> .content > .main-content > #colour > img {
+  max-width: 50%;
+  filter: drop-shadow(10px 7px 10px rgb(240, 100, 12));
+}
+
+main> .content > .main-content > #colour{
+  text-align: center;
+}
+
+main> .content > .main-content > #colour2 > img {
+  max-width: 50%;
+  filter: drop-shadow(10px 7px 10px rgb(15, 208, 225));
+}
+
+main> .content > .main-content > #colour2{
+  text-align: center;
+}
+
+main> .content > .main-content > #colour3 > img {
+  max-width: 50%;
+  filter: drop-shadow(10px 7px 10px rgb(231, 30, 30));
+}
+
+main> .content > .main-content > #colour3 {
+  text-align: center;
+}
+
+main> .content > .main-content > #colour4 > img {
+  max-width: 50%;
+  filter: drop-shadow(10px 7px 10px rgb(103, 107, 110));
+}
+
+main> .content > .main-content > #colour4 {
+  text-align: center;
+}
+
+main> .content > .main-content > #colour5 > img {
+  max-width: 50%;
+  filter: drop-shadow(10px 7px 10px rgb(22, 12, 137));
+}
+
+main> .content > .main-content > #colour5 {
+  text-align: center;
+}
+
+main> .content > .main-content > #colourI > img {
+  max-width: 50%;
+  filter: drop-shadow(10px 7px 10px rgb(97, 99, 100));
+}
+
+main> .content > .main-content > #colourI {
+  text-align: center;
+}
+
+main> .content > .main-content > #colourII > img {
+  max-width: 50%;
+  filter: drop-shadow(10px 7px 10px rgb(6, 5, 5));
+}
+
+main> .content > .main-content > #colourII {
+  text-align: center;
+}
+
+main > .content > .main-content > #colourv > img {
+  max-width: 50%;
+}
+
+main > .content > .main-content >  #colourv {
+  text-align: center;
+}
+
+main {
+  color: #37434f;
+  text-align: justify;
+}
+
+main .content .aside-merk article {
+  text-align: center;
+}
+
+main .content .aside-merk article img {
+  height: 12rem;
+}
+
+main .content {
+  display: flex;
+}
+
+.main-content {
+  width: 65%;
+  margin: 20px;
+}
+
+.content .aside-merk {
+  width: 30%;
+  margin-left: 1rem;
+  margin-right: 0;
+}
+
+.aside-merk p {
+  text-align: justify;
+}
+
+.foot {
+  padding: 3px;
+  text-align: center;
+  background-color: rgb(225, 23, 23);
+  position: sticky;
+  top: 0;
+  color: white;
+}
+
+@media only screen and (max-width: 1150px) {
+  header .yamahaxhonda {
+    display: block;
+    margin-top: -2rem;
+  }
+
+  .content .aside-merk {
+    order: 1;
+  }
+
+  main .content {
+    flex-direction: column;
+  }
+
+  main .main-content {
+    width: 100%;
+  }
+
+  .content .aside-merk {
+    width: 100%;
+  }
+
+  section img {
+    width: 10rem;
+  }
+
+  main > .content > .main-content > #colourv > img {
+    width: 10rem;
+  }
+
+}
+
+
